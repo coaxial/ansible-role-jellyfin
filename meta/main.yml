@@ -1,0 +1,18 @@
+---
+galaxy_info:
+  author: Coaxial
+  description: Install and configure [Jellyfin](https://jellyfin.media), a free software media system.
+  role_name: jellyfin
+  company: 64b.it
+  license: MIT
+  min_ansible_version: 2.6
+  platforms:
+    - name: ubuntu
+      versions:
+        - bionic
+  galaxy_tags:
+    - jellyfin
+    - media
+    - emby
+
+  dependencies: []
