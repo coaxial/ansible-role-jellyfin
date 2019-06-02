@@ -1,0 +1,6 @@
+---
+- name: Restart Jellyfin
+  service:
+    name: jellyfin
+    enabled: true
+    state: restarted
